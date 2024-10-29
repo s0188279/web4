@@ -1,0 +1,101 @@
+﻿/* style.css */
+
+/* Стили для заголовка */
+.header {
+    padding: 20px 0;
+}
+
+    .header h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+.bg-pink {
+    background-color: #ff9baa;
+}
+
+body {
+    margin: auto;
+    background-color: #fee0f1;
+}
+
+main {
+    max-width: 960px;
+    margin: auto;
+    display: block;
+}
+
+
+/* Стили для навигации */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: #007bff; /* Цвет ссылок */
+}
+
+    .nav-link:hover {
+        color: #0056b3; /* Цвет при наведении */
+    }
+
+/* Стили для боковой панели */
+aside {
+    background-color: #f8f9fa; /* Светлый фон */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Стили для списка гиперссылок */
+.links h1 {
+    margin-bottom: 15px;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #ff9baa;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Стили для формы */
+.form {
+    margin-top: 20px;
+}
+
+    .form h2 {
+        margin-bottom: 15px;
+    }
+
+.form-group label {
+    font-weight: bold; /* Жирный шрифт для меток */
+}
+
+/* Скрываем вертикальное меню на компьютерах */
+@media (min-width: 768px) {
+    aside.col-md-3 {
+        display: none; /* Скрываем элемент aside на экранах шире 768px */
+    }
+}
+
